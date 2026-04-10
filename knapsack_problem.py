@@ -16,18 +16,4 @@ weights = [2, 3, 4, 5, 9]
 values = [3, 4, 5, 8, 10]
 capacity = 10
 
-# weights = [1, 2, 3, 8, 7, 4]
-# values = [20, 5, 10, 40, 15, 25]
-# capacity = 10
-
-# weights = [10, 20, 30]
-# values = [60, 100, 120]
-
-# capacity = 50
-
-# weights = [5, 10, 15, 7, 8]
-# values = [10, 40, 50, 70, 60]
-# capacity = 20
-
-result = knapsack(weights, values, capacity)
-print("Maximum value in Knapsack =", result)
+print(knapsack(weights, values, capacity))
